@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>BAL | About Page</title>
+
+	<meta name="viewport" content="width=device-width,initial-scale= 1.0" />
+	<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+
+<body>
+
+<div class="header"> 	
+
+<div class="container">
+
+	<div class="logo">
+		<h1><a href="#">BAL</a></h1>
+	</div>
+
+	<div class="nav">
+			<ul>
+				<li><a href="#">Other Topics</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Contacts</a></li>
+				<li><a href="index.html">Home</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+<div class="content1">
+<div class="container">
+<p>
+	<div id = "aboutpageheader">
+		Info:
+	</div>
+	The creator of this website is Karan Bal. The website name is 'BAL' which is my surname. The actual purpose of this website
+	is to create a gallery of information that can be used for personal use and for anyone who chooses to use it. There is no 
+	specific content that I am going to put on the website; everything put online is just information about different topics that 
+	have no specific category. The actual website was created in pure html and css and if any javascript
+	was used, it would've been for importing files. Why did I create the website? This is the first public website I have ever
+	created therefore I wanted to get more knowledge of web-hosting and wanted to practice web-developement skills even more. In 
+	future, even more will be added to the website as I go along however this is the original design that has been published. For
+	example, when I have more topics written, I am going to have to refer to it on that page; a modification would then have to be 
+	done. NOT MOBILE FRIENDLY.
+</p>
+</div>
+</div>
+
+<div class="container">
+	<div id = "html5image"></div>
+</div>
+
+<div id = "css3image"></div>
+
+<
+<div class="content2">
+<div class="container">
+  <img class="mySlides" src="img/slider1.jpg" style="width:100%">
+  <img class="mySlides" src="img/slider2.jpg" style="width:100%">
+  <img class="mySlides" src="img/slider3.jpg" style="width:100%">
+  <img class="mySlides" src="img/slider4.jpg" style="width:100%">
+  <img class="mySlides" src="img/slider5.jpg" style="width:100%">
+
+<a href = "#" class="w3-btn-floatingleft" onclick="plusDivs(-1)">&#10094;</a>
+<a href ="#" class="w3-btn-floatingright" onclick="plusDivs(1)">&#10095;</a>
+
+ </div>
+ </div>
+
+
+<script>
+
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  x[slideIndex-1].style.display = "block";
+}
+
+</script>
+
+
+
+
+<p><a href="#" id="headerslider">Use My Code:</p></a>
+
+
+<div id="creditsabout">
+	<div id="ownerimageabout"></div>
+		<div id="ownertext"><p>Owner- Karan Bal</p></div>
+<p>
+<center>
+<em>Credits:</em>
+</center>
+</p>
+</div>
+	
+
+
+</body>
