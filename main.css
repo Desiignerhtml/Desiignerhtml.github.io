@@ -73,7 +73,7 @@ a {
 }
 
 #html5image {
-	background: url("img/html5pic.PNG");
+	background: url("img/html5pic.png");
 	width: 200px;
 	height: 200px;
 	position: absolute;
@@ -83,7 +83,7 @@ a {
 }
 
 #css3image {
-	background: url("img/css3pic.PNG");
+	background: url("img/css3pic.png");
 	width: 200px;
 	height: 200px;
 	position: absolute;
