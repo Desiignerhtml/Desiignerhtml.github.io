@@ -15,7 +15,7 @@
 	min-width: 960px
 }
 
-.header1 {
+.header {
 	width: 100%;
 	background: linear-gradient(to left, #4B79A1 , #283E51);
     top: 0%;
@@ -92,7 +92,7 @@ a {
 	padding: 10px;
 }
 
-.header1:hover {
+.header:hover {
 	background: url("img/banner.JPG"); 
   -webkit-background-size: cover;
   -moz-background-size: cover;
