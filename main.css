@@ -93,7 +93,7 @@ a {
 }
 
 .header:hover {
-	background: url("https://desiignerhtml.github.io/img/banner.JPG"); 
+	background-image: url("https://desiignerhtml.github.io/img/banner.JPG"); 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
