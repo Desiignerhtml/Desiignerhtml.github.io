@@ -92,14 +92,6 @@ a {
 	padding: 10px;
 }
 
-.header:hover {
-	background-image: url("https://desiignerhtml.github.io/img/headerimg.JPG") no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
 .logo:hover {
 	color: lightblue; 
 }
