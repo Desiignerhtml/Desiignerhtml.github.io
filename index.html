@@ -50,6 +50,29 @@
 
 <script>
 
+1
+//Page Slug Body Class
+2
+function add_slug_body_class( $classes ) {
+3
+global $post;
+4
+if ( isset( $post ) ) {
+5
+$classes[] = $post->post_type . '-' . $post->post_name;
+6
+}
+7
+return $classes;
+8
+}
+9
+add_filter( 'body_class', 'add_slug_body_class' );
+
+
+
+
+
 jQuery(document).ready(function($){
  $('.no-retina').attr('data-no-retina');
 });
