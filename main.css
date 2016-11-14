@@ -8,7 +8,7 @@ position: fixed;
 left: 0;
 right: 0;
 display: block;
-background: url("image/background.png") no-repeat center center fixed; 
+background: url("images/background.png") no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -154,7 +154,7 @@ a {
 .contactsbody {
 	margin: auto;
 	width: 100%;
-	background-image: url("img/contactsback.png");
+	background-image: url("images/contactsback.png");
 	background-repeat: no-repeat; 	
 	background-size: cover;
 	background-size: 100%;
